@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#FF3838"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view12"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/police"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Police"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+
+            <Button
+                android:id="@+id/Ambulance"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Ambulance"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+
+            <Button
+                android:id="@+id/Fire"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Fire HelpLine"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/TRAFFICPOLICE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Traffic Police"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/ChildLine"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Child Help Line"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/WomenhelpLine"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Women Help Line"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/DISASTERHELPLINE"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Disaster Helpline"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/RailwayPoliceHelpLine"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Railway Police Help Line"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/AntiRaggingcomplaints"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Anti Ragging complaints"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <Button
+                android:id="@+id/CoronaTollfree"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:text="Corona Tollfree"
+                android:textAllCaps="false"
+                android:textColor="#C3C3C3"
+                android:textSize="17sp"
+                app:backgroundTint="#202020" />
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#FF3838"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="188dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emergency_crop" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
